@@ -3,13 +3,16 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 import ChatScreen from "../screens/ChatScreen";
 import TabNavigator from "./TabNavigator";
+import { COLORS } from "../constants";
 
 const Stack = createNativeStackNavigator();
 
 const AppNavigator = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      <Stack.Navigator
+        screenOptions={{ headerStyle: { backgroundColor: COLORS.whitesmoke } }}
+      >
         <Stack.Screen
           name="Tabs"
           component={TabNavigator}

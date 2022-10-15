@@ -13,8 +13,9 @@ const TabNavigator = () => {
     <Tab.Navigator
       initialRouteName="Chats"
       screenOptions={{
-        tabBarStyle: { backgroundColor: COLORS.white },
-        headerStyle: { backgroundColor: COLORS.white },
+        tabBarStyle: { backgroundColor: COLORS.whitesmoke },
+        headerStyle: { backgroundColor: COLORS.whitesmoke },
+        tabBarActiveTintColor: COLORS.royalblue,
       }}
     >
       <Tab.Screen
