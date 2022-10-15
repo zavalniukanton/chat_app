@@ -12,13 +12,17 @@ const ChatListItem = ({ chat }) => {
 
       <View style={styles.content}>
         <View style={styles.header}>
-          <Text style={styles.name}>{chat.user.name}</Text>
+          <Text numberOfLines={1} style={styles.name}>
+            {chat.user.name}
+          </Text>
           <Text style={styles.text}>
             {dayjs(chat.lastMessage.createdAt).fromNow()}
           </Text>
         </View>
 
-        <Text style={styles.text}>{chat.lastMessage.text}</Text>
+        <Text numberOfLines={2} style={styles.text}>
+          {chat.lastMessage.text}
+        </Text>
       </View>
     </View>
   );
