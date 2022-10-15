@@ -1,5 +1,7 @@
 import { StyleSheet } from "react-native";
 
+import { COLORS } from "../../constants";
+
 export const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
@@ -17,7 +19,7 @@ export const styles = StyleSheet.create({
   },
   content: {
     flex: 1,
-    borderBottomColor: "lightgray",
+    borderBottomColor: COLORS.lightgray,
     borderBottomWidth: StyleSheet.hairlineWidth,
   },
   header: {
@@ -29,6 +31,6 @@ export const styles = StyleSheet.create({
     flex: 1,
   },
   text: {
-    color: "grey",
+    color: COLORS.grey,
   },
 });

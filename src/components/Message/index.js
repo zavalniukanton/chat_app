@@ -4,6 +4,7 @@ import relativeTime from "dayjs/plugin/relativeTime";
 dayjs.extend(relativeTime);
 
 import { styles } from "./styles";
+import { COLORS } from "../../constants";
 
 const Message = ({ message }) => {
   const isMyMessage = message.user.id === "u1";
@@ -13,7 +14,7 @@ const Message = ({ message }) => {
       style={[
         styles.container,
         {
-          backgroundColor: isMyMessage ? "#DCF8C5" : "white",
+          backgroundColor: isMyMessage ? COLORS.lightgreen : COLORS.white,
           alignSelf: isMyMessage ? "flex-end" : "flex-start",
         },
       ]}

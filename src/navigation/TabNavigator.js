@@ -4,6 +4,7 @@ import { Entypo } from "@expo/vector-icons";
 
 import ChatsScreen from "../screens/ChatsScreen";
 import ComingSoonScreen from "../screens/ComingSoonScreen";
+import { COLORS } from "../constants";
 
 const Tab = createBottomTabNavigator();
 
@@ -12,8 +13,8 @@ const TabNavigator = () => {
     <Tab.Navigator
       initialRouteName="Chats"
       screenOptions={{
-        tabBarStyle: { backgroundColor: "white" },
-        headerStyle: { backgroundColor: "white" },
+        tabBarStyle: { backgroundColor: COLORS.white },
+        headerStyle: { backgroundColor: COLORS.white },
       }}
     >
       <Tab.Screen
@@ -54,7 +55,7 @@ const TabNavigator = () => {
             <Entypo
               name="new-message"
               size={18}
-              color={"royalblue"}
+              color={COLORS.royalblue}
               style={{ marginRight: 15 }}
             />
           ),

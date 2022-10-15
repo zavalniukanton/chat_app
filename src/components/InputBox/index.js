@@ -1,10 +1,11 @@
-import { View, TextInput } from "react-native";
+import { TextInput } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useState } from "react";
 import { AntDesign } from "@expo/vector-icons";
 import { MaterialIcons } from "@expo/vector-icons";
 
 import { styles } from "./styles";
+import { COLORS } from "../../constants";
 
 const InputBox = () => {
   const [newMessage, setNewMessage] = useState("");
@@ -27,7 +28,7 @@ const InputBox = () => {
       <MaterialIcons
         name="send"
         size={24}
-        color="white"
+        color={COLORS.white}
         style={styles.send}
         onPress={onSendMesage}
       />

@@ -1,12 +1,14 @@
 import { StyleSheet } from "react-native";
 
+import { COLORS } from "../../constants";
+
 export const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
     alignItems: "center",
     paddingVertical: 5,
     paddingHorizontal: 10,
-    backgroundColor: "whitesmoke",
+    backgroundColor: COLORS.whitesmoke,
   },
   input: {
     flex: 1,
@@ -15,12 +17,12 @@ export const styles = StyleSheet.create({
     marginHorizontal: 10,
     borderRadius: 99,
     borderWidth: StyleSheet.hairlineWidth,
-    borderColor: "lightgray",
+    borderColor: COLORS.lightgray,
     fontSize: 18,
-    backgroundColor: "white",
+    backgroundColor: COLORS.white,
   },
   send: {
-    backgroundColor: "royalblue",
+    backgroundColor: COLORS.royalblue,
     padding: 7,
     borderRadius: 99,
     overflow: "hidden",

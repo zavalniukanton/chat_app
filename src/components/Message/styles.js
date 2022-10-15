@@ -1,5 +1,7 @@
 import { StyleSheet } from "react-native";
 
+import { COLORS } from "../../constants";
+
 export const styles = StyleSheet.create({
   container: {
     marginHorizontal: 10,
@@ -10,6 +12,6 @@ export const styles = StyleSheet.create({
   },
   time: {
     alignSelf: "flex-end",
-    color: "grey",
+    color: COLORS.grey,
   },
 });
