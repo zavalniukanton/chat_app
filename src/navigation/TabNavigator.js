@@ -16,6 +16,7 @@ const TabNavigator = () => {
         tabBarStyle: { backgroundColor: COLORS.whitesmoke },
         headerStyle: { backgroundColor: COLORS.whitesmoke },
         tabBarActiveTintColor: COLORS.royalblue,
+        headerTitleAlign: "center",
       }}
     >
       <Tab.Screen

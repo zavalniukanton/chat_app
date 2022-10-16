@@ -11,7 +11,12 @@ const AppNavigator = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        screenOptions={{ headerStyle: { backgroundColor: COLORS.whitesmoke } }}
+        screenOptions={{
+          headerTitleAlign: "center",
+          headerStyle: {
+            backgroundColor: COLORS.whitesmoke,
+          },
+        }}
       >
         <Stack.Screen
           name="Tabs"
