@@ -4,7 +4,8 @@
     "user": {
       "id": "u2",
       "name": "Ilona",
-      "image": "https://i.ibb.co/c8MZmJG/Ilona.jpg"
+      "image": "https://i.ibb.co/c8MZmJG/Ilona.jpg",
+      "status": "online"
     },
     "lastMessage": {
       "id": "m1",
@@ -17,7 +18,8 @@
     "user": {
       "id": "u3",
       "name": "Steve",
-      "image": "https://i.ibb.co/DKMJJQT/Steve.jpg"
+      "image": "https://i.ibb.co/DKMJJQT/Steve.jpg",
+      "status": "online"
     },
     "lastMessage": {
       "id": "m2",
@@ -30,7 +32,8 @@
     "user": {
       "id": "u4",
       "name": "Max",
-      "image": "https://i.ibb.co/NtqKgg2/Max.jpg"
+      "image": "https://i.ibb.co/NtqKgg2/Max.jpg",
+      "status": "offline"
     },
     "lastMessage": {
       "id": "m3",
@@ -43,7 +46,8 @@
     "user": {
       "id": "u5",
       "name": "Adam",
-      "image": "https://i.ibb.co/hCXW8Z4/Adam.jpg"
+      "image": "https://i.ibb.co/hCXW8Z4/Adam.jpg",
+      "status": "online"
     },
     "lastMessage": {
       "id": "m4",
@@ -56,7 +60,8 @@
     "user": {
       "id": "u6",
       "name": "Samantha",
-      "image": "https://i.ibb.co/z8RPy1s/Samantha.jpg"
+      "image": "https://i.ibb.co/z8RPy1s/Samantha.jpg",
+      "status": "offine"
     },
     "lastMessage": {
       "id": "m5",
@@ -69,7 +74,8 @@
     "user": {
       "id": "u7",
       "name": "Andrew",
-      "image": "https://i.ibb.co/Kr3jLKz/Andrew.jpg"
+      "image": "https://i.ibb.co/Kr3jLKz/Andrew.jpg",
+      "status": "online"
     },
     "lastMessage": {
       "id": "m6",
@@ -82,7 +88,8 @@
     "user": {
       "id": "u8",
       "name": "Mary",
-      "image": "https://i.ibb.co/Xpq5c31/Mary.jpg"
+      "image": "https://i.ibb.co/Xpq5c31/Mary.jpg",
+      "status": "offline"
     },
     "lastMessage": {
       "id": "m7",
@@ -95,7 +102,8 @@
     "user": {
       "id": "u9",
       "name": "Mom",
-      "image": "https://i.ibb.co/zQBxVHp/Marta.jpg"
+      "image": "https://i.ibb.co/zQBxVHp/Marta.jpg",
+      "status": "online"
     },
     "lastMessage": {
       "id": "m8",
@@ -108,7 +116,8 @@
     "user": {
       "id": "u9",
       "name": "Kate",
-      "image": "https://i.ibb.co/mNzJ35n/Kate.jpg"
+      "image": "https://i.ibb.co/mNzJ35n/Kate.jpg",
+      "status": "online"
     },
     "lastMessage": {
       "id": "m8",
@@ -121,7 +130,8 @@
     "user": {
       "id": "u9",
       "name": "Brenda",
-      "image": "https://i.ibb.co/8DNS974/Brenda.jpg"
+      "image": "https://i.ibb.co/8DNS974/Brenda.jpg",
+      "status": "online"
     },
     "lastMessage": {
       "id": "m8",
@@ -134,7 +144,8 @@
     "user": {
       "id": "u9",
       "name": "Tony",
-      "image": "https://i.ibb.co/ZxB7rRk/Tony.jpg"
+      "image": "https://i.ibb.co/ZxB7rRk/Tony.jpg",
+      "status": "offline"
     },
     "lastMessage": {
       "id": "m8",
